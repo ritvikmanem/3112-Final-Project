@@ -1,0 +1,30 @@
+Inventory Management System - How to Run and Operate
+
+1. Prerequisites
+   - .NET SDK installed (e.g., .NET 7)
+   - VS Code with C# extension
+   - Project folder contains .csproj and source files
+
+2. Open Project
+   - In VS Code: File → Open Folder… → select project root
+
+3. Build and Run
+   - Open integrated terminal (View → Terminal)
+   - Restore and build:
+     dotnet restore
+     dotnet build
+   - Run the app:
+     dotnet run
+
+4. Menu Options
+   1 - Add Item: Enter Name, Quantity, Price
+   2 - View Inventory: List all items with totals
+   3 - Update Item: Enter existing Name, new Quantity, Price
+   4 - Remove Item: Enter Name to delete
+   5 - Exit: Close the program
+
+5. Persistence
+   - Data saved in inventory.db (SQLite)
+   - Restarting the app preserves items
+
+Enjoy managing your inventory!
